@@ -15,6 +15,18 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@svnt/features/conduit/articles/article-detail": [
+        "libs/features/conduit/articles/article-detail/src/index.ts"
+      ],
+      "@svnt/features/conduit/articles/article-list": [
+        "libs/features/conduit/articles/article-list/src/index.ts"
+      ],
+      "@svnt/features/conduit/articles/data-access": [
+        "libs/features/conduit/articles/data-access/src/index.ts"
+      ],
+      "@svnt/features/conduit/articles/article-edit": [
+        "libs/features/conduit/articles/article-edit/src/index.ts"
+      ],
       "@svnt/shared/ng-prime-ds": ["libs/shared/ng-prime-ds/src/index.ts"]
     }
   },
